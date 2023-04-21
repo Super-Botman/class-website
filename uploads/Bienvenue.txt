@@ -1,0 +1,1 @@
+Hello !! bienvenue dans l'onglet "envoyer un fichier" ici tu peux envoyer tous les fichiers que tu veux (sauf les .bat,.exe,.cmd,etc...).

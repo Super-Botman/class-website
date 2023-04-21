@@ -1,0 +1,170 @@
+@font-face {
+  font-family: 'Coolvetica';
+  src: url("police/coolvetica.ttf");
+}
+body{
+  background-color: #282828;
+  color: #fafafa;
+  font-family: 'Coolvetica';
+}
+input{
+  border-radius: 2px;
+  border: none;
+  padding: 4px;
+  border-bottom: #b7ca79;
+  font-family: 'Coolvetica';
+}
+nav > ul li:hover #sous{
+  display: block;
+}
+.identifients{
+  color: red;
+  border: 1px solid red;
+  padding: 3px;
+}
+.button_download_file{
+  color: #000000;
+  border-radius: 2px;
+  border: 2px;
+  border-color: #ffffff;
+  padding: 5px;
+  background-color: #ffffff;
+  text-decoration:none;
+}
+.button_download_file:hover{
+  color: #000000;
+  border-radius: 2px;
+  border: 2px;
+  border-color: #ffffff;
+  padding: 5px;
+  background-color: gold;
+  text-decoration:none;
+}
+.title{
+  border-bottom: 2px solid white;
+}
+.label-file {
+  color: #000000;
+  border-radius: 20px;
+  border: 2px;
+  border-color: #ffffff;
+  padding: 5px;
+  background-color: #ffffff;
+  text-decoration:none;
+}
+.label-file:hover {
+  cursor: pointer;
+  color: #000000;
+  border-radius: 20px;
+  border: 2px;
+  border-color: #ffffff;
+  padding: 5px;
+  background-color: gold;
+  text-decoration:none;
+}
+.file {
+    display: none;
+}
+.error_file{
+  color: red;
+  border: 1px solid red;
+  padding: 2px;
+  width: 50%;
+  text-align: center;
+}
+.premier_msg{
+  color: #000000;
+  font-size: 20px;
+}
+.message_entré{
+  border-radius: 10px;
+  width: 50%;
+  height: 15pt;
+}
+#footer_envoi_fichiers{
+  font-size: 12px
+}
+.dashboard_messages{
+  padding:0 10px;
+  float:left;
+  background-color: #ffffff;
+  width: 35%;
+  height: 350px;
+  border: 4px solid gold;
+  border-radius: 4px;
+  overflow: auto;
+  overflow-x: hidden;
+  overflow-y: auto;
+  z-index: +10;
+}
+#dashboard_fichiers{
+  padding:0 10px;
+  float:right;
+  background-color: #ffffff;
+  width: 35%;
+  height:350px;
+  border: 4px solid gold;
+  border-radius: 4px;
+  overflow: auto;
+  overflow-x: hidden;
+  overflow-y: auto;
+  z-index: +10;
+}
+.dashboard_button_download_file{
+  color: #000000;
+  border-radius: 2px;
+  border: 2px;
+  border-color: gold;
+  padding: 5px;
+  background-color: #ffffff;
+  text-decoration:none;
+}
+.dashboard_button_download_file:hover{
+  color: #000000;
+  border-radius: 2px;
+  border: 2px;
+  border-color: #000000;
+  padding: 5px;
+  background-color: gold;
+  text-decoration:none;
+}
+#password{
+  background-color: #ffffff;
+  width: 50%;
+  height:350px;
+  border: 4px solid gold;
+  border-radius: 4px;
+  overflow: auto;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+#body{
+  margin: 0 auto;
+  width: 15%;
+}
+#submit{
+  border-radius: 30px;
+  background-color: #fafafa;
+  border: none;
+  padding: 6.2px;
+}
+#submit:hover{
+  padding: 6.2px;
+  border-radius: 30px;
+  background-color: gold;
+  border: none;
+  cursor: pointer;
+}
+#file_submit:hover{
+    cursor: pointer;
+    background-color: gold;
+}
+#file_submit{
+  padding: 7px;
+  border-radius: 30px;
+  border: none;
+  background-color: #ffffff;
+}
+#file:hover{
+  cursor: pointer;
+}

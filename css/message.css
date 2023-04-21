@@ -1,0 +1,51 @@
+@media (min-width: 768px) {
+  #messages {
+    background-color: #ffffff;
+    margin: 0 auto;
+    width: 45%;
+    height: 450px;
+    border: 4px solid gold;
+    border-radius: 4px;
+    overflow: auto;
+    overflow-x: hidden;
+    overflow-y: auto;
+    z-index: -1;
+  }
+  #messages #autheur {
+    color: #020201;
+    background-color: #fff;
+    border-bottom: 2px solid #020201;
+  }
+  #messages #message {
+    color: #020201;
+    background-color: #ffffff;
+  }
+}
+
+@media (max-width: 767px) {
+  #messages {
+    background-color: #ffffff;
+    margin: 0 auto;
+    height: 450px;
+    border: 4px solid gold;
+    border-radius: 4px;
+    overflow: auto;
+    overflow-x: hidden;
+    overflow-y: auto;
+    z-index: -1;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    margin-left: 0, 5%;
+  }
+  #messages #autheur {
+    color: #020201;
+    background-color: #fff;
+    border-bottom: 2px solid #020201;
+  }
+  #messages #message {
+    color: #020201;
+    background-color: #ffffff;
+  }
+}
+/*# sourceMappingURL=message.css.map */

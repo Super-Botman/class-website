@@ -1,0 +1,23 @@
+.actifs_content_messagerie{
+    padding: 0 10px;
+    background-color: #ffffff;
+    border: 4px solid gold;
+    border-radius: 4px;
+    text-align: center;
+    width: 20%;
+    position: absolute;
+    margin: auto;
+    right: 0;
+    left: 100;
+    height: 10%;
+    .user {
+        color: black;
+        img{
+            display: inline-block;
+            vertical-align: middle;
+            max-width: 100%;
+            height: 13px;
+            margin-left: 5px;
+        }
+    }
+}

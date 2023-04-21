@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,MAAM,EAAC,SAAS,EAAE,KAAK;EACnB,AAAA,gBAAgB,CAAA;IACZ,WAAW,EAAE,IAAI;IACjB,WAAW,EAAE,GAAG;GACjB;;;AAGP,MAAM,EAAC,SAAS,EAAE,KAAK,OAAO,SAAS,EAAE,MAAM;EAC3C,AAAA,gBAAgB,CAAA;IACZ,WAAW,EAAE,IAAI;IACjB,MAAM,EAAE,MAAM;IACd,KAAK,EAAE,GAAG;GACX",
+    "sources": [
+        "form_messagerie.scss"
+    ],
+    "names": [],
+    "file": "form_messagerie.css"
+}
